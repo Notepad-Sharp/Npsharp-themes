@@ -1,0 +1,125 @@
+{
+  "name": "theme-defaults",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "categories": [
+    "Themes"
+  ],
+  "version": "1.0.0",
+  "publisher": "vscode",
+  "license": "MIT",
+  "engines": {
+    "vscode": "*"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "npsblackboard",
+        "label": "Blackboard",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nps_blackboard.json"
+      },
+      {
+        "id": "npsblackboardoled",
+        "label": "BlackBoard OLED",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nps_blackboard_oled.json"
+      },
+      {
+        "id": "npsblackboardlight",
+        "label": "Blackboard Light",
+        "uiTheme": "vs",
+        "path": "./themes/nps_blackboard_light.json"
+      },
+      {
+        "id": "npssolarizedplus",
+        "label": "Solarized Light+",
+        "uiTheme": "vs",
+        "path": "./themes/nps_solarized_plus.json"
+      },
+      {
+        "id": "npsdarkplus",
+        "label": "Notepad Sharp Dark+",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nps_dark_plus.json"
+      },
+      {
+        "id": "npslightplus",
+        "label": "Notepad Sharp Light+",
+        "uiTheme": "vs",
+        "path": "./themes/nps_light_plus.json"
+      },
+      {
+        "id": "npssiberiyskysteel",
+        "label": "Notepad Sharp Aço Siberiano",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nps_siberiysky_steel.json"
+      },
+      {
+        "id": "npscrimsonoled",
+        "label": "Notepad Sharp Crimson Oled",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nps_crimson_oled.json"
+      },
+      {
+        "id": "npssolarisfrost",
+        "label": "Notepad Sharp Solaris Frost",
+        "uiTheme": "vs",
+        "path": "./themes/nps_solarisfrost_light.json"
+      },
+      {
+        "id": "npsarticsteel",
+        "label": "Notepad Sharp Aço Artico",
+        "uiTheme": "vs",
+        "path": "./themes/nps_articsteel.json"
+      },
+      {
+        "id": "npspolusnetruskiy",
+        "label": "Notepad Sharp Polo Neutro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nps_polusnetruskiy.json"
+      },
+      {
+        "id": "npsnochnoispektr",
+        "label": "Notepad Sharp Spectro Noturno",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nps_nochnoispektr.json"
+      },
+      {
+        "id": "npssvetlyikofe",
+        "label": "Notepad Sharp Café Claro",
+        "uiTheme": "vs",
+        "path": "./themes/nps_svetlyikofe.json"
+      },
+      {
+        "id": "npszimniybiryuz",
+        "label": "Notepad Sharp Turquesa de Inverno",
+        "uiTheme": "vs",
+        "path": "./themes/nps_zimniybiryuz.json"
+      },
+      {
+        "id": "npsnebulablade",
+        "label": "Notepad Sharp Lâmina de Nebula",
+        "uiTheme":"vs-dark",
+        "path": "./themes/nps_nebulablade.json"
+      },
+           {
+        "id": "npsemeraldviper",
+        "label": "Notepad Sharp Víbora esmeralda",
+        "uiTheme":"vs-dark",
+        "path": "./themes/nps_emeraldviper.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "vs-minimal",
+        "label": "%minimalIconThemeLabel%",
+        "path": "./fileicons/vs_minimal-icon-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/girellidev/npsharp.git"
+  }
+}
