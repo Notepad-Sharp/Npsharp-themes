@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Natal_Noite_Minimalista",
+  "name": "Christmas-Dark",
   "type": "dark",
 
   "colors": {
@@ -17,7 +17,7 @@
 
     "activityBar.background": "#0C1114",
     "activityBar.foreground": "#E6F2FF",
-    "activityBarBadge.background": "#1F6B2C",       
+    "activityBarBadge.background": "#2E8B57",
     "activityBarBadge.foreground": "#FFFFFF",
 
     "sideBar.background": "#0C1114",
@@ -31,18 +31,18 @@
     "tab.inactiveBackground": "#080C0F",
     "tab.inactiveForeground": "#8FA8B5",
     "tab.border": "#00000000",
-    "tab.activeBorder": "#1F6B2C",                
+    "tab.activeBorder": "#2E8B57",
 
     "terminal.background": "#0A0F12",
     "terminal.foreground": "#E6F2FF",
     "terminalCursor.foreground": "#A8D8FF",
 
     "terminal.ansiBlack": "#0A0A0A",
-    "terminal.ansiRed": "#C73737",         
-    "terminal.ansiGreen": "#2E8B57",       
-    "terminal.ansiYellow": "#D7DFA3",
-    "terminal.ansiBlue": "#6FB8FF",        
-    "terminal.ansiMagenta": "#C47FBF",
+    "terminal.ansiRed": "#C73737",
+    "terminal.ansiGreen": "#2E8B57",
+    "terminal.ansiYellow": "#D8C27A",
+    "terminal.ansiBlue": "#6FB8FF",
+    "terminal.ansiMagenta": "#6FB8FF",
     "terminal.ansiCyan": "#8AE6E6",
     "terminal.ansiWhite": "#FFFFFF",
 
@@ -56,16 +56,16 @@
   "tokenColors": [
     { "scope": "comment", "settings": { "foreground": "#88A4B8", "fontStyle": "italic" } },
 
-    { "scope": "keyword", "settings": { "foreground": "#FF4C4C" } },      
-    { "scope": "string", "settings": { "foreground": "#C8F7FF" } },      
+    { "scope": "keyword", "settings": { "foreground": "#C73737" } },
+    { "scope": "string", "settings": { "foreground": "#A8D8FF" } },
     { "scope": "number", "settings": { "foreground": "#A8D8FF" } },
 
-    { "scope": "variable", "settings": { "foreground": "#FFFFFF" } },
-    { "scope": "constant", "settings": { "foreground": "#FF4C4C" } },
+    { "scope": "variable", "settings": { "foreground": "#D8C27A" } },
+    { "scope": "constant", "settings": { "foreground": "#C73737" } },
 
-    { "scope": "function", "settings": { "foreground": "#D0EFFF" } },
-    { "scope": "type", "settings": { "foreground": "#7FE6A2" } },
-    { "scope": "operator", "settings": { "foreground": "#FF4C4C" } },
+    { "scope": "function", "settings": { "foreground": "#CDEBFF" } },
+    { "scope": "type", "settings": { "foreground": "#2E8B57" } },
+    { "scope": "operator", "settings": { "foreground": "#C73737" } },
 
     { "scope": "punctuation", "settings": { "foreground": "#AED6E6" } }
   ]
