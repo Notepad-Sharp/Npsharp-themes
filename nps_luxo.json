@@ -1,0 +1,72 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Luxo",
+  "type": "dark",
+
+  "colors": {
+    "editor.background": "#0A0A0A",
+    "editor.foreground": "#E8E8E8",
+
+    "editorCursor.foreground": "#E8C46A",
+    "editor.selectionBackground": "#2A1F0A",
+    "editor.inactiveSelectionBackground": "#1E1607",
+    "editorLineNumber.foreground": "#3E3E3E",
+    "editorLineNumber.activeForeground": "#E8C46A",
+
+    "editorWhitespace.foreground": "#202020",
+
+    "activityBar.background": "#0C0C0C",
+    "activityBar.foreground": "#E8E8E8",
+    "activityBarBadge.background": "#E8C46A",
+    "activityBarBadge.foreground": "#000000",
+
+    "sideBar.background": "#0C0C0C",
+    "sideBar.foreground": "#D5D5D5",
+
+    "statusBar.background": "#0B0B0B",
+    "statusBar.foreground": "#E8C46A",
+
+    "tab.activeBackground": "#101010",
+    "tab.activeForeground": "#FFFFFF",
+    "tab.inactiveBackground": "#080808",
+    "tab.inactiveForeground": "#8A8A8A",
+    "tab.border": "#00000000",
+    "tab.activeBorder": "#E8C46A",
+
+    "terminal.background": "#0A0A0A",
+    "terminal.foreground": "#E8E8E8",
+    "terminalCursor.foreground": "#E8C46A",
+
+    "terminal.ansiBlack": "#141414",
+    "terminal.ansiRed": "#B8514A",
+    "terminal.ansiGreen": "#9BC27C",
+    "terminal.ansiYellow": "#E8C46A",
+    "terminal.ansiBlue": "#6A8DD4",
+    "terminal.ansiMagenta": "#C09AC8",
+    "terminal.ansiCyan": "#8FD0D0",
+    "terminal.ansiWhite": "#F2F2F2",
+
+    "button.background": "#E8C46A",
+    "button.foreground": "#000000",
+    "button.hoverBackground": "#F0D98A"
+  },
+
+  "semanticHighlighting": true,
+
+  "tokenColors": [
+    { "scope": "comment", "settings": { "foreground": "#7A7A7A", "fontStyle": "italic" } },
+
+    { "scope": "keyword", "settings": { "foreground": "#E8C46A" } },
+    { "scope": "string", "settings": { "foreground": "#C9D6F2" } },
+    { "scope": "number", "settings": { "foreground": "#E8C46A" } },
+
+    { "scope": "variable", "settings": { "foreground": "#E8C46A" } },
+    { "scope": "constant", "settings": { "foreground": "#E8C46A" } },
+
+    { "scope": "function", "settings": { "foreground": "#F0F0F0" } },
+    { "scope": "type", "settings": { "foreground": "#D8A84A" } },
+    { "scope": "operator", "settings": { "foreground": "#E8C46A" } },
+
+    { "scope": "punctuation", "settings": { "foreground": "#B8B8B8" } }
+  ]
+}
