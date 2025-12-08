@@ -1,72 +1,113 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Natal_Noite_Minimalista",
+  "name": "Noite_Natalina_Minimal_Dark",
   "type": "dark",
+  "description": "Tema natalino minimalista: escuro, profundo, detalhes sutis em vermelho e verde. Inspirado no Dark+ porém mais elegante.",
 
   "colors": {
     "editor.background": "#0A0A0A",
-    "editor.foreground": "#DDDDDD",
-
-    "editorCursor.foreground": "#CBBF8A", 
-    "editor.selectionBackground": "#1B271F",
-    "editor.inactiveSelectionBackground": "#121A14",
-    "editorLineNumber.foreground": "#2E2E2E",
-    "editorLineNumber.activeForeground": "#AFAFAF",
-
-    "editorWhitespace.foreground": "#1A1A1A",
-
-    "activityBar.background": "#0C0C0C",
-    "activityBar.foreground": "#CFCFCF",
-    "activityBarBadge.background": "#233B2A",
-    "activityBarBadge.foreground": "#FFFFFF",
+    "editor.foreground": "#EDEDED",
+    "editorCursor.foreground": "#FFFFFF",
+    "editor.selectionBackground": "#0D2A18AA",
+    "editor.inactiveSelectionBackground": "#0D2A1833",
+    "editorLineNumber.foreground": "#3A3A3A",
+    "editorLineNumber.activeForeground": "#EDEDED",
+    "editorIndentGuide.background": "#1A1A1A",
+    "editorIndentGuide.activeBackground": "#2A2A2A",
+    "editorBracketMatch.border": "#1F3A1F",
+    "editorBracketMatch.background": "#0F1F0F55",
 
     "sideBar.background": "#0C0C0C",
-    "sideBar.foreground": "#CFCFCF",
+    "sideBar.foreground": "#D8D8D8",
 
-    "statusBar.background": "#0B0B0B",
-    "statusBar.foreground": "#CBBF8A",
+    "activityBar.background": "#0C0C0C",
+    "activityBar.foreground": "#FFFFFF",
 
-    "tab.activeBackground": "#101010",
-    "tab.activeForeground": "#EDEDED",
-    "tab.inactiveBackground": "#080808",
-    "tab.inactiveForeground": "#898989",
-    "tab.border": "#00000000",
-    "tab.activeBorder": "#233B2A",
+    "tab.activeBackground": "#111111",
+    "tab.inactiveBackground": "#0A0A0A",
+    "tab.activeForeground": "#FFFFFF",
+    "tab.inactiveForeground": "#777777",
 
     "terminal.background": "#0A0A0A",
-    "terminal.foreground": "#DDDDDD",
-    "terminalCursor.foreground": "#CBBF8A",
+    "terminal.foreground": "#EAEAEA",
 
-    "terminal.ansiBlack": "#0A0A0A",
-    "terminal.ansiRed": "#A05F5F",     
-    "terminal.ansiGreen": "#577A5E",   
-    "terminal.ansiYellow": "#A89D78",
-    "terminal.ansiBlue": "#4A5F78",
-    "terminal.ansiMagenta": "#7B5E78",
-    "terminal.ansiCyan": "#5F7777",
-    "terminal.ansiWhite": "#E0E0E0",
+    "statusBar.background": "#0C0C0C",
+    "statusBar.foreground": "#FFFFFF",
 
-    "button.background": "#233B2A",
-    "button.foreground": "#FFFFFF",
-    "button.hoverBackground": "#2D4A35"
+    "focusBorder": "#1D4D1D",
+    "scrollbarSlider.background": "#22222255",
+    "scrollbarSlider.hoverBackground": "#22222288",
+    "scrollbarSlider.activeBackground": "#222222AA"
   },
 
   "semanticHighlighting": true,
 
   "tokenColors": [
-    { "scope": "comment", "settings": { "foreground": "#555555", "fontStyle": "italic" } },
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#B7B7B7",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#D24C4C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["variable", "identifier"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": [
+        "punctuation",
+        "punctuation.definition.string",
+        "punctuation.definition.parameters",
+        "punctuation.section",
+        "meta.brace",
+        "meta.delimiter"
+      ],
+      "settings": {
+        "foreground": "#4CAF50"
+      }
+    },
+    {
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#5FEA82"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#D2FFD2"
+      }
+    },
+    {
+      "scope": ["entity.name.type", "support.class"],
+      "settings": {
+        "foreground": "#DDC48C"
+      }
+    },
+    {
+      "scope": ["invalid"],
+      "settings": {
+        "foreground": "#FF3C3C",
+        "fontStyle": "underline"
+      }
+    }
+  ],
 
-    { "scope": "keyword", "settings": { "foreground": "#CBBF8A" } },
-    { "scope": "string", "settings": { "foreground": "#C8C8C8" } },
-    { "scope": "number", "settings": { "foreground": "#CBBF8A" } },
-
-    { "scope": "variable", "settings": { "foreground": "#DDDDDD" } },
-    { "scope": "constant", "settings": { "foreground": "#CBBF8A" } },
-
-    { "scope": "function", "settings": { "foreground": "#D9D9D9" } },
-    { "scope": "type", "settings": { "foreground": "#AFAFAF" } },
-    { "scope": "operator", "settings": { "foreground": "#CBBF8A" } },
-
-    { "scope": "punctuation", "settings": { "foreground": "#A0A0A0" } }
-  ]
+  "uuid": "noite-natalina-minimal-002"
 }
