@@ -4,11 +4,11 @@
   "type": "light",
 
   "colors": {
-    "editor.background": "#F4F9FF",               
+    "editor.background": "#F4F9FF",
     "editor.foreground": "#0F1A20",
 
-    "editorCursor.foreground": "#1A6DAA",          
-    "editor.selectionBackground": "#CBE8D1",       
+    "editorCursor.foreground": "#2baa1a",
+    "editor.selectionBackground": "#CBE8D1",
     "editor.inactiveSelectionBackground": "#DCEFE2",
     "editorLineNumber.foreground": "#A7B8C4",
     "editorLineNumber.activeForeground": "#2A3C47",
@@ -24,7 +24,7 @@
     "sideBar.foreground": "#0F1A20",
 
     "statusBar.background": "#E8F1F8",
-    "statusBar.foreground": "#1A6DAA",
+    "statusBar.foreground": "#3eaa1a",
 
     "tab.activeBackground": "#FFFFFF",
     "tab.activeForeground": "#0F1A20",
@@ -35,7 +35,7 @@
 
     "terminal.background": "#F4F9FF",
     "terminal.foreground": "#0F1A20",
-    "terminalCursor.foreground": "#1A6DAA",
+    "terminalCursor.foreground": "#37aa1a",
 
     "terminal.ansiBlack": "#334044",
     "terminal.ansiRed": "#C73737",
@@ -57,8 +57,8 @@
     { "scope": "comment", "settings": { "foreground": "#7C8E99", "fontStyle": "italic" } },
 
     { "scope": "keyword", "settings": { "foreground": "#C73737" } },
-    { "scope": "string", "settings": { "foreground": "#1A6DAA" } },
-    { "scope": "number", "settings": { "foreground": "#1A6DAA" } },
+    { "scope": "string", "settings": { "foreground": "#1aaa54" } },
+    { "scope": "number", "settings": { "foreground": "#1aaa54" } },
 
     { "scope": "variable", "settings": { "foreground": "#0F1A20" } },
     { "scope": "constant", "settings": { "foreground": "#C73737" } },
